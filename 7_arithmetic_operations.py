@@ -17,3 +17,7 @@ div = a / b
 mod = a%b
 
 print (f'{a} + {b} = {sum}') # 10+5 = 15
+print (f'{a} - {b} = {diff}') # 10-5 = 5
+print (f'{a} * {b} = {product}') # 10*5 = 50
+print (f'{a} / {b} = {div}') # 10/5 = 2
+print (f'{a} % {b} = {mod}') # 10%5 = 0
