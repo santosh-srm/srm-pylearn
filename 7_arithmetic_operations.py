@@ -16,8 +16,17 @@ product = a * b
 div = a / b
 mod = a%b
 
-print (f'{a} + {b} = {sum}') # 10+5 = 15
-print (f'{a} - {b} = {diff}') # 10-5 = 5
-print (f'{a} * {b} = {product}') # 10*5 = 50
-print (f'{a} / {b} = {div}') # 10/5 = 2
-print (f'{a} % {b} = {mod}') # 10%5 = 0
+print (f'Sum of {a} and {b} ({a} + {b}) is = {sum}') # 10+5 = 15
+print (f'Diff of {a} and {b} ({a} - {b}) is = {diff}') # 10-5 = 5
+print (f'Product of {a} and {b} ({a} * {b}) is = {product}') # 10*5 = 50
+print (f'Div of {a} and {b} ({a} / {b}) = {div}') # 10/5 = 2
+print (f'Reminder of {a} and {b} ({a} % {b}) is = {mod}') # 10%5 = 0
+
+"""
+Output
+Sum of 10 and 5 (10 + 5) is = 15
+Diff of 10 and 5 (10 - 5) is = 5
+Product of 10 and 5 (10 * 5) is = 50
+Div of 10 and 5 (10 / 5) = 2.0
+Reminder of 10 and 5 (10 % 5) is = 0
+"""
