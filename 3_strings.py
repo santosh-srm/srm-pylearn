@@ -1,7 +1,7 @@
 """Concatenate 2 Strings"""
 
 
-print("Hello" + "-" + "Santosh Moure")
+print("Hello " + "-" + "Santosh Moure")
 
 """Output
 Hello-Santosh Moure
