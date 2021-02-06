@@ -2,7 +2,7 @@
 
 def print_cubes(n):
     """Function to print cubes of first n even numbers"""
-    print("This function prints cubes of even numbers below {n}")
+    print(f"This function prints cubes of even numbers below {n}")
     for i in range(1,n):
         if (i%2==0):
             print(f"Cube of {i} is {i*i*i}")
@@ -17,7 +17,7 @@ main()
 """Output
 
 c:/akademize/W01D01/srm-pylearn/W03D01/41_print_cubes_of_first_n_nums.py
-This function prints cubes of even numbers below {n}
+This function prints cubes of even numbers below 15
 Cube of 2 is 8
 Cube of 4 is 64
 Cube of 6 is 216
@@ -25,7 +25,7 @@ Cube of 8 is 512
 Cube of 10 is 1000
 Cube of 12 is 1728
 Cube of 14 is 2744
-This function prints cubes of even numbers below {n}
+This function prints cubes of even numbers below 25
 Cube of 2 is 8
 Cube of 4 is 64
 Cube of 6 is 216
